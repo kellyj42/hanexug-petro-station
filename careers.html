@@ -27,22 +27,23 @@
   </style>
 </head>
 <body>
-  <!-- Header (Navbar) -->
-  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <nav class="navbar navbar-expand-lg navbar-dark bg-danger shadow"> <!-- Red Background -->
     <div class="container">
-      <a class="navbar-brand" href="#">Hanex Petro Station</a>
+      <a class="navbar-brand fw-bold" href="#home" style="color: #ffc107;"> <!-- Yellow Text -->
+        <span style="color: #ffffff;font-size: 2rem;">Hanex</span> Petro Station
+      </a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav ms-auto">
-          <li class="nav-item"><a href="index.html" class="nav-link text-white">Home</a></li>
-          <li class="nav-item"><a href="about.html" class="nav-link text-white">About</a></li>
-          <li class="nav-item"><a href="services.html" class="nav-link text-white">Services</a></li>
-          <li class="nav-item"><a href="contact.html" class="nav-link text-white">Contact</a></li>
-          <li class="nav-item"><a href="faq.html" class="nav-link text-white">FAQ</a></li>
-          <li class="nav-item"><a href="careers.html" class="cta nav-link text-white">Careers</a></li>
-          <li class="nav-item"><a class="btn btn-primary" href="offer.html">Check Offers</a></li>
+          <li class="nav-item"><a class="nav-link text-white" href="index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link text-white" href="about.html">About</a></li>
+          <li class="nav-item"><a class="nav-link text-white" href="sevices.html">Services</a></li>
+          <li class="nav-item"><a class="nav-link text-white" href="contact.html">Contact</a></li>
+          <li class="nav-item"><a class="nav-link text-white" href="faq.html">Faq</a></li>
+          <li class="nav-item"><a class="nav-link text-white" href="#">careers</a></li>
+          <li class="nav-item"><a class="btn btn-warning" href="offer.html">Check Offers</a></li> <!-- Yellow Button -->
         </ul>
       </div>
     </div>
@@ -51,29 +52,29 @@
   <!-- Careers Section -->
   <section id="careers" class="career-section py-5">
     <div class="container">
-      <h2 class="text-center mb-4">Join Our Team at Hanex Petro Station</h2>
+      <h2 class="text-center mb-4" style="color: #0056b3">Join Our Team at Hanex Petro Station</h2>
       
       <div class="row">
         <!-- Job Openings -->
         <div class="col-md-6 mb-4">
-          <h3 class="text-center job-title">Current Job Openings</h3>
+          <h3 class="text-center job-title" style="color: #0056b3">Current Job Openings</h3>
           <ul class="list-group">
             <li class="list-group-item">
-              <h5>Fuel Station Manager</h5>
+              <h5 style="color: #0056b3">Fuel Station Manager</h5>
               <p>Location: Kanoni-Kazo</p>
               <p><strong>Responsibilities:</strong> Oversee daily operations, manage staff, ensure customer satisfaction, and monitor inventory.</p>
               <p><strong>Requirements:</strong> 5+ years of experience in management, excellent leadership skills.</p>
               <a href="#applyForm" class="btn btn-primary">Apply Now</a>
             </li>
             <li class="list-group-item">
-              <h5>Customer Service Representative</h5>
+              <h5 style="color: #0056b3">Customer Service Representative</h5>
               <p>Location: Kanoni-Kazo</p>
               <p><strong>Responsibilities:</strong> Assist customers, handle transactions, and ensure a positive experience at the station.</p>
               <p><strong>Requirements:</strong> Strong communication skills, customer-focused, experience in customer service preferred.</p>
               <a href="#applyForm" class="btn btn-primary">Apply Now</a>
             </li>
             <li class="list-group-item">
-              <h5>Sales Associate</h5>
+              <h5 style="color: #0056b3">Sales Associate</h5>
               <p>Location: Kanoni-Kazo</p>
               <p><strong>Responsibilities:</strong> Sell convenience store items, manage stock, and maintain store cleanliness.</p>
               <p><strong>Requirements:</strong> Experience in retail, friendly and approachable attitude.</p>
@@ -84,7 +85,7 @@
 
         <!-- Benefits Section -->
         <div class="col-md-6 mb-4">
-          <h3 class="text-center">Why Work with Us?</h3>
+          <h3 class="text-center" style="color: #0056b3">Why Work with Us?</h3>
           <ul class="list-group">
             <li class="list-group-item"><strong>Competitive Salary</strong></li>
             <li class="list-group-item"><strong>Health and Dental Insurance</strong></li>
@@ -97,22 +98,22 @@
 
       <!-- Application Form -->
       <div id="applyForm" class="py-4">
-        <h3 class="text-center">Apply for a Position</h3>
+        <h3 class="text-center" style="color: #0056b3">Apply for a Position</h3>
         <form>
           <div class="mb-3">
-            <label for="name" class="form-label">Full Name</label>
+            <label for="name" class="form-label" style="color: #0056b3">Full Name</label>
             <input type="text" class="form-control" id="name" required>
           </div>
           <div class="mb-3">
-            <label for="email" class="form-label">Email Address</label>
+            <label for="email" class="form-label" style="color: #0056b3">Email Address</label>
             <input type="email" class="form-control" id="email" required>
           </div>
           <div class="mb-3">
-            <label for="phone" class="form-label">Phone Number</label>
+            <label for="phone" class="form-label" style="color: #0056b3">Phone Number</label>
             <input type="tel" class="form-control" id="phone" required>
           </div>
           <div class="mb-3">
-            <label for="position" class="form-label">Position Applying For</label>
+            <label for="position" class="form-label" style="color: #0056b3">Position Applying For</label>
             <select class="form-select" id="position">
               <option value="manager">Fuel Station Manager</option>
               <option value="csr">Customer Service Representative</option>
@@ -120,39 +121,39 @@
             </select>
           </div>
           <div class="mb-3">
-            <label for="resume" class="form-label">Upload Resume</label>
+            <label for="resume" class="form-label" style="color: #0056b3">Upload Resume</label>
             <input type="file" class="form-control" id="resume">
           </div>
-          <button type="submit" class="btn btn-primary">Submit Application</button>
+          <button type="submit" class="btn btn-primary" style="color: #0056b3">Submit Application</button>
         </form>
       </div>
     </div>
   </section>
 
   <!-- Footer -->
-  <footer class="bg-dark text-white py-4">
+  <footer class="bg-danger shadow">
     <div class="container">
       <div class="row">
         <div class="col-md-3">
-          <h5>Hanex</h5>
+          <h5 style="color: #ffc107;">Hanex</h5>
           <ul class="list-unstyled">
             <li><a href="#" class="text-white">Contact Us</a></li>
             <li><a href="#" class="text-white">About Us</a></li>
           </ul>
         </div>
         <div class="col-md-3">
-          <h5>Location</h5>
-          <p>Kanoni-Kazo</p>
+          <h5 style="color: #ffc107;">Location</h5>
+          <p style="color:#ffffff;">Kanoni-Kazo</p>
           <a href="https://www.google.com/maps" class="text-white">Tap Here for Directions 👈</a>
         </div>
         <div class="col-md-3">
-          <h5>Working Hours</h5>
-          <p>Mon: 7:30am-6:00pm</p>
-          <p>Tue-Sat: 7:30am-7:30pm</p>
-          <p>Sun: 8:00am-4:00pm</p>
+          <h5 style="color: #ffc107;">Working Hours</h5>
+          <p style="color:#ffffff;">Mon: 7:30am-6:00pm</p>
+          <p style="color:#ffffff;">Tue-Sat: 7:30am-7:30pm</p>
+          <p style="color:#ffffff;">Sun: 8:00am-4:00pm</p>
         </div>
         <div class="col-md-3">
-          <h5>Newsletter</h5>
+          <h5 style="color: #ffc107;">Newsletter</h5>
           <form>
             <div class="input-group">
               <input type="email" class="form-control" placeholder="Enter your email" required>
@@ -166,8 +167,8 @@
           </div>
         </div>
       </div>
-      <hr>
-      <p class="text-center mb-0">© 2023 Hanex Petro Station. All rights reserved. @KJN</p>
+      <hr style="color:#ffffff;">
+      <p class="text-center mb-0" style="color:#ffffff60;">© 2023 Hanex Petro Station. All rights reserved.@KJN</p>
     </div>
   </footer>
 
